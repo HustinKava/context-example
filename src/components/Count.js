@@ -7,7 +7,7 @@ function Count() {
     const context = useContext(CountContext)
 
   return (
-    <div>
+    <div className="quick-style">
         {/* Returning the state value so it can be visually seen */}
         {context.countState}
     </div>

@@ -7,7 +7,7 @@ import GlobalContext from './components/GlobalContext';
 function Homepage() {
   return (
     <GlobalContext>
-      <div>
+      <div className='center'>
         <Count/>
         <Buttons/>
       </div>
