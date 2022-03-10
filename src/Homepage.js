@@ -7,8 +7,10 @@ import GlobalContext from './components/GlobalContext';
 function Homepage() {
   return (
     <GlobalContext>
-      <Count/>
-      <Buttons/>
+      <div>
+        <Count/>
+        <Buttons/>
+      </div>
     </GlobalContext>
   );
 }

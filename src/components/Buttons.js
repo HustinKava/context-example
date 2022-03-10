@@ -3,9 +3,10 @@ import { CountContext } from './GlobalContext';
 
 function Buttons() {
 
+  // Creating the context to use the reducer function
   const context = useContext(CountContext)
 
-
+  // The onClicks have a callback function that execute the action rules set up 
   return (
     <>
     <button
